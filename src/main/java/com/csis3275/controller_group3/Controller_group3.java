@@ -34,7 +34,7 @@ public class Controller_group3 {
 	
 	@GetMapping("/carlos")
 	public String showCarlosPage(Model model) {
-		Model_group3 object = new Model_group3("Carlos Quintero", "/images/profilepicture.png", "Carlos Quintero is a dedicated and passionate student pursuing a Bachelor's degree "
+		Model_group3 object = new Model_group3("Carlos Quintero", "/images/bro.jpg", "Carlos Quintero is a dedicated and passionate student pursuing a Bachelor's degree "
 				+ "													in Computer Studies and Information Systems. Born with a natural curiosity for technology, Carlos has always been drawn to the world of computers and information systems. His journey in this field began at a young age when he dismantled his first computer to understand its inner workings"
 				+ "													 and later started coding simple programs for fun.");
 		model.addAttribute("carlos", object);
