@@ -42,4 +42,14 @@ public class Controller_group3 {
 		return "carlosPage";
 	}
 	
+	@GetMapping("/huyhoang")
+	public String showhuyhoangPage(Model model) {
+		Model_group3 object = new Model_group3("Huy Hoang", "huyhoang.jpg", 
+				" Energetic computer science student with a passion for technology and problem-solving. "
+				+ "Dedicated to learning and staying updated with industry trends.");
+		model.addAttribute("huyhoang", object);
+		
+		return "huyhoangPage";
+	}
+	
 }
